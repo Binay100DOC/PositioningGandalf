@@ -1,0 +1,71 @@
+
+.box {
+
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.gandalf {
+
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    font-family: sans-serif;
+    top: 40%;
+    width: 100%;
+    
+}
+
+.box .rewardbox {
+ 
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 80%;
+    height: 100px;
+    background-color: wheat;
+    border-radius: 4px;
+    color: black;
+    opacity: 0.6;
+}
+
+.text {
+
+
+    position: absolute;
+    top: 2px;
+    left: 150px;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+#orange {
+
+    color: orangered;
+}
+
+.box:hover .rewardbox {
+
+    
+    display:none;
+}
+
+.box:hover .text {
+
+    display: none;
+}
+
+.box:hover .gandalf {
+
+    display: none;
+}
+
+.box:hover {
+
+    opacity: 1;
+}
+
